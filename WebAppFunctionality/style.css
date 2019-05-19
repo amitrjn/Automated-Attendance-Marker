@@ -1,0 +1,46 @@
+body{
+  background-image: url("surface.jpg");
+  color: white;
+  margin-left: 60px;
+  margin-right: 60px;
+  font-size: 15px;
+}
+
+h1{
+  text-align: center;
+  font-family: URW Chancery L, cursive;
+  font-size: 50px;
+}
+
+form{
+  padding: 30px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.fd_arrow{
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.attributes_in{
+  width: 100%;
+}
+
+.form_left{
+  display: inline-block;
+  text-align: left;
+}
+
+.form_center{
+  text-align: center;
+}
+
+p {
+  color: white;
+  font-family: verdana;
+  text-align: center;
+  font-size: 20px;
+}
