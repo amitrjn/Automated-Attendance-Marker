@@ -4,6 +4,7 @@ from mtcnn.mtcnn import MTCNN
 import tensorflow as tf
 import keras
 import cv2
+import os
 import numpy as np
 from keras.models import Model
 from PIL import Image
@@ -26,8 +27,10 @@ class_strength = 11
 
 dim = (160, 160)
 
-for i in range(class_strength):
-	stud_pics = stud_img_src + "rollNo_{}".format(i+1)
+files = os.listdir(stud_img_src)
+
+for file_name in files:
+	stud_pics = stud_img_src + file_name
 	for j in range(5):
 		pic = stud_pics + "/{}.jpg".format(j+1)
 		pic_cv = cv2.imread(pic)
