@@ -1,0 +1,5 @@
+opencv >> pip install opencv-python==4.1.0.25
+numpy >> pip install numpy
+keras >> pip install keras
+pillow >> pip install Pillow
+tensorflow >> pip install --upgrade tensorflow

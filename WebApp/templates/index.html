@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CS671</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<h1>Attendance for CS-671</h1>
+<p>Instructor :- Aditya Nigam</p>
+<p2></p2>
+<div class="form_center">
+  <div class="form_left">
+    <form action="{{ url_for('submit') }}" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" id="fileToUpload">
+        <button type="submit" value="uploadImage" name="submit">Submit</button><br><br>
+    </form>
+  </div>
+</div>
+
+</body>
+</html>
